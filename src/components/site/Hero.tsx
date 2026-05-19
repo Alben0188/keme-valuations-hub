@@ -1,4 +1,5 @@
 import logo from "@/assets/keme-logo.png";
+import housesBg from "@/assets/houses-bg.jpg";
 
 export function Hero() {
   return (
@@ -6,6 +7,14 @@ export function Hero() {
       id="inicio"
       className="relative pt-32 md:pt-44 pb-24 md:pb-32 overflow-hidden"
     >
+      {/* Blurred houses background — evokes property appraisals */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.18] saturate-50"
+        style={{ backgroundImage: `url(${housesBg})`, filter: "blur(6px)" }}
+      />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-background/85 via-background/75 to-background" />
+
       {/* Decorative watermark glyph */}
       <img
         src={logo}
@@ -14,6 +23,7 @@ export function Hero() {
         className="pointer-events-none select-none absolute -right-20 md:right-10 top-24 w-[420px] md:w-[560px] opacity-[0.06] rotate-[-8deg]"
       />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_color-mix(in_oklab,_var(--primary)_8%,_transparent),_transparent_60%)]" />
+
 
       <div className="relative max-w-7xl mx-auto px-5 md:px-8 grid md:grid-cols-12 gap-10 items-center">
         <div className="md:col-span-7 fade-in-up">
