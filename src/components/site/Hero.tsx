@@ -10,10 +10,10 @@ export function Hero() {
       {/* Blurred houses background — evokes property appraisals */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.18] saturate-50"
-        style={{ backgroundImage: `url(${housesBg})`, filter: "blur(6px)" }}
+        className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.35] saturate-75"
+        style={{ backgroundImage: `url(${housesBg})`, filter: "blur(4px)" }}
       />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-background/85 via-background/75 to-background" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-background/70 via-background/60 to-background" />
 
       {/* Decorative watermark glyph */}
       <img
