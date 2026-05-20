@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Avalúos Keme — Valuación Profesional en Guatemala" },
       { name: "description", content: "Avalúos comerciales, fiscales, vehiculares y especializados en toda Guatemala. Respaldo técnico y ético garantizado." },
       { name: "author", content: "Avalúos Keme" },
-      { property: "og:title", content: "Avalúos Keme — Valuación Profesional" },
-      { property: "og:description", content: "Expertos en avalúos comerciales, fiscales y técnicos en toda Guatemala." },
+      { property: "og:title", content: "Avalúos Keme — Valuación Profesional en Guatemala" },
+      { property: "og:description", content: "Avalúos comerciales, fiscales, vehiculares y especializados en toda Guatemala. Respaldo técnico y ético garantizado." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Avalúos Keme — Valuación Profesional en Guatemala" },
+      { name: "twitter:description", content: "Avalúos comerciales, fiscales, vehiculares y especializados en toda Guatemala. Respaldo técnico y ético garantizado." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6ffde356-a31b-4943-965b-49c90796919f/id-preview-a4fb6ad1--cc847862-cdc5-45bb-8666-3aea213adeff.lovable.app-1779222730892.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6ffde356-a31b-4943-965b-49c90796919f/id-preview-a4fb6ad1--cc847862-cdc5-45bb-8666-3aea213adeff.lovable.app-1779222730892.png" },
     ],
     links: [
       {
